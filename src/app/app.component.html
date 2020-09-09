@@ -1,40 +1,7 @@
-
- <br>
- <br>
- <br>
-<div *ngFor="let data of cardData"  class="container d-flex justify-content-center">
-<div class="card" style="width: 50rem;">
-  <div class="card-body">
-    <div class="row">
-      <div class="col-sm-1">
-        <ngx-avatar name="John Doe" [round]="true"></ngx-avatar>
-      </div>
-      <div class="col-sm">
-        <h5 class="card-title">{{data.question}}</h5>
-        <h6 class="card-subtitle  mb-2 text-muted">Asked {{data.date | date:'d MMM  y' }}</h6>
-      </div>
-    </div>
-    <mat-divider></mat-divider>
-    <br>
-    <h5 class="card-title">{{data.question}}</h5>
-    <div *ngFor="let ans of data.answers" class="card" style="width: auto;margin-top: 25px;"> 
-      <div class="card-body">
-        <div class="row">
-          <div class="col-sm-1">
-            <ngx-avatar name="{{ans.user}}" [round]="true"></ngx-avatar>
-          </div>
-          <div class="col-sm-3">
-            <h5 class="card-title">{{ans.user}}</h5>     
-            <h6 class="card-subtitle mb-2 text-muted">{{ans.date | date:'d MMM  y'}}</h6>
-          </div>
-        </div>
-        <mat-divider></mat-divider>
-        <br>
-        <p class="card-title">{{ans.answer}}</p><br>
-        <div class="d-flex justify-content-end"><mat-icon >more_vert</mat-icon></div>
-      </div>
-    </div>
-    <br> 
-  </div>
-</div>
-</div>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+     <p class="d-flex justify-content-center">Restaurant Billing Management System</p>
+    </mat-toolbar-row>
+  </mat-toolbar> 
+  <br>  <br>  <br>  <br>
+<router-outlet></router-outlet>

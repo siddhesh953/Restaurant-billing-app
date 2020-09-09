@@ -1,0 +1,31 @@
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="example-container ">
+  <h3 class="d-flex justify-content-center">Login With PIN</h3>
+    <mat-form-field class="d-flex justify-content-center" appearance="fill">
+      <mat-label>Enter your PIN</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="d-flex justify-content-center"  appearance="fill">
+      <mat-label>Initial Deposit</mat-label>
+      <input matInput type="number" class="example-right-align">
+      <span matPrefix>₹&nbsp;</span>
+      <span matSuffix>.00</span>
+    </mat-form-field>
+    <div class="example-button-row d-flex justify-content-center">
+        <button mat-button color="primary" (click)="login()" routerLink="/menulist">Login</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,72 @@
+{
+  "Food_list": [
+    {
+      "id": 1,
+      "food_type": "Main Course",
+      "food_name": "Rajma Chawal",
+      "image": "assets/images/rajmaChawal.jpg",
+      "price": 120,
+      "isVeg": true
+    },
+    {
+      "id": 2,
+      "food_type": "Main Course",
+      "food_name": "Mutter Paneer",
+      "image": "assets/images/muttarpaneer.jpg",
+      "price": 620,
+      "isVeg": true
+    },
+    {
+      "id": 3,
+      "food_type": "Dessert",
+      "food_name": "Gulab jamun",
+      "image": "assets/images/gulabjamun.jpg",
+      "price": 40,
+      "isVeg": true
+    },
+    {
+      "id": 4,
+      "food_type": "Dessert",
+      "food_name": "Vanila icecream",
+      "image": "assets/images/vanilaicecream.jpg",
+      "price": 990,
+      "isVeg": true
+    },
+    {
+      "id": 5,
+      "food_type": "Starters",
+      "food_name": "Veg Kabab",
+      "image": "assets/images/vegkabab.jpg",
+      "price": 400,
+      "isVeg": true
+    },
+    {
+      "id": 5,
+      "food_type": "Starters",
+      "food_name": "Chiken 65",
+      "image": "assets/images/chicken65.jpg",
+      "price": 750,
+      "isVeg": false
+    }
+  ],
+  "table": [
+    {
+      "id": 1,
+      "table_no": "A123",
+      "order": [],
+      "receipt_no": 1162457775552554500
+    },
+    {
+      "id": 2,
+      "table_no": "A125",
+      "order": [],
+      "receipt_no": 5741256064309697000
+    },
+    {
+      "id": 3,
+      "table_no": "A127",
+      "order": [],
+      "receipt_no": 550468269431991800
+    }
+  ]
+}
